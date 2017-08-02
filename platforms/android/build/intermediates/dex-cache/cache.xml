@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/nfrancis/dev/projects/norris/ContractionTimer/platforms/android/build/intermediates/exploded-aar/com.android.support/design/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="/Users/nfrancis/dev/projects/norris/ContractionTimer/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-design-25.3.1_de03c2c9d5ad8794931ace9a1a7c31f6713f9626.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nfrancis/dev/projects/norris/ContractionTimer/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/Users/nfrancis/dev/projects/norris/ContractionTimer/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-core-utils-25.3.1_199f1200c0f8ff543a6c61c7f59101957d2b7ced.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nfrancis/dev/projects/norris/ContractionTimer/platforms/android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/Users/nfrancis/dev/projects/norris/ContractionTimer/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-appcompat-v7-25.3.1_0a6d7f1a96fb059e64ad7bbc174d2caa2f6fdb5a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nfrancis/dev/projects/norris/ContractionTimer/platforms/android/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/Users/nfrancis/dev/projects/norris/ContractionTimer/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-animated-vector-drawable-25.3.1_ec453c56e97d48851fc9b25f0d29303bf7544bdd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nfrancis/dev/projects/norris/ContractionTimer/platforms/android/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/Users/nfrancis/dev/projects/norris/ContractionTimer/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-media-compat-25.3.1_ac2021ac57fc246659f07781d4a946026ba87897.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nfrancis/dev/projects/norris/ContractionTimer/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/Users/nfrancis/dev/projects/norris/ContractionTimer/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-core-ui-25.3.1_d7752b4385846d685ad932e8ecc8a67e28f40266.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nfrancis/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/Users/nfrancis/dev/projects/norris/ContractionTimer/platforms/android/build/intermediates/pre-dexed/F0/debug/support-annotations-25.3.1_dd4eb116607d88d1a92e745aa249e70885648e2f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nfrancis/dev/projects/norris/ContractionTimer/platforms/android/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/Users/nfrancis/dev/projects/norris/ContractionTimer/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-vector-drawable-25.3.1_ca76c208fff9c968c81e8d74e331fcc96251811b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nfrancis/dev/projects/norris/ContractionTimer/platforms/android/build/intermediates/exploded-aar/widgets-release/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0366b761ae7f79749c685f953a1f9ced2e166de0">
+        <dex dex="/Users/nfrancis/dev/projects/norris/ContractionTimer/platforms/android/build/intermediates/pre-dexed/F0/debug/intermediates-exploded-aar-widgets-release_62a0ca6a5182b8c98971edbf3cf8f6aa5d343423.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nfrancis/dev/projects/norris/ContractionTimer/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/Users/nfrancis/dev/projects/norris/ContractionTimer/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-compat-25.3.1_4b5344bc64879f85dc654a03d9464e8606bcd0dd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nfrancis/dev/projects/norris/ContractionTimer/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/nfrancis/dev/projects/norris/ContractionTimer/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-v4-25.3.1_f720d5caaa0d13375a566461ec3c2a4b95eb3d48.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nfrancis/dev/projects/norris/ContractionTimer/platforms/android/build/intermediates/exploded-aar/ContractionTimer/runtime/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="30b97ea5d6274e02330dcc69943087778363c172">
+        <dex dex="/Users/nfrancis/dev/projects/norris/ContractionTimer/platforms/android/build/intermediates/pre-dexed/F0/debug/ContractionTimer-runtime-unspecified_e778c510882958bf9153c60a7b3c909d1bbf95ea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nfrancis/dev/projects/norris/ContractionTimer/platforms/android/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/Users/nfrancis/dev/projects/norris/ContractionTimer/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-support-fragment-25.3.1_302ea61ff3d3604e08b4c7039d6c4cf311615208.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nfrancis/dev/projects/norris/ContractionTimer/platforms/android/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/Users/nfrancis/dev/projects/norris/ContractionTimer/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-recyclerview-v7-25.3.1_57fac7ad09a55d6d62959f272999b3f5833eaba3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nfrancis/dev/projects/norris/ContractionTimer/platforms/android/build/intermediates/exploded-aar/com.android.support/transition/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="/Users/nfrancis/dev/projects/norris/ContractionTimer/platforms/android/build/intermediates/pre-dexed/F0/debug/com.android.support-transition-25.3.1_39d5b661c3d185ebd7fb9330ebf18ee3b5b49fc2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/nfrancis/dev/projects/norris/ContractionTimer/platforms/android/build/intermediates/exploded-aar/ContractionTimer/runtime/unspecified/jars/libs/binding-generator.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a3e74f5f1ebe12c7cfa6591158ef298c95a5275f">
+        <dex dex="/Users/nfrancis/dev/projects/norris/ContractionTimer/platforms/android/build/intermediates/pre-dexed/F0/debug/binding-generator_5b1bc39765a6a456d883536e7a6a9d1be02dfeea.jar" />
+    </item>
+
+</items>

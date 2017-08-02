@@ -1,0 +1,36 @@
+
+.body-copy {
+	font-size: 12px;
+	padding: 40px 40px;
+}
+
+.main-image {
+	width: 80%;
+	margin-top: 20px;
+}
+
+.h3 {
+	font-size:30px;
+	text-align: center;
+}
+
+button, label, stack-layout, .body-copy {
+    horizontal-align: center;
+}
+
+button {
+	width: 50%;
+	margin-bottom: 40px;
+}
+
+
+.home {
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.item {
+	flex-grow: 1;
+	flex: 1;
+}

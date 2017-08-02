@@ -1,0 +1,53 @@
+<FlexboxLayout class="timer-cpt">
+	<TabView class="timer-tabs" tabsBackgroundColor="#31bcff" #element [(ngModel)]="selectedIndex" visibility="{{ !intensity ? 'visible' : 'collapsed' }}">
+		<StackLayout *tabItem="{title: 'Timer'}">
+			<StackLayout class="hud pad">
+				<Label text="Started: {{timerStore.startTime | amLocal | amDateFormat: 'YYYY-MM-DD HH:mm'}}"></Label>
+				<Label text="Active : {{timerStore.activeTime}}"></Label>
+				<Label text="Total Contractions : {{timerStore.contractionHistory.length}}"></Label>
+				<Label text="Last Contraction Duration : {{timerStore.lastContractionDuration}}"></Label>
+				<Label text="Time Since Last : {{timerStore.timeSinceLast}}"></Label>
+				<Label text="Average Time Between : {{timerStore.averageTimeBetween}}"></Label>
+				<Label text="Last Intensity : {{timerStore.lastIntensity}}"></Label>
+				<Label text="Average Intensity : {{timerStore.averageIntensity}}"></Label>
+			</StackLayout>
+		</StackLayout>
+		<ScrollView *tabItem="{title: 'History'}" class="history">
+			<StackLayout>
+				<FlexboxLayout class="history-block {{contraction.intensity}}" *ngFor="let contraction of timerStore.contractionHistory | sort">
+					<Label class="history-times" text="Start: {{contraction.startTime | amLocal | amDateFormat: 'YYYY-MM-DD HH:mm:ss'}}"></Label>
+					<Label text="Duration : {{contraction.time}}"></Label>
+					<Label class="history-times" text="End : {{contraction.endTime | amLocal | amDateFormat: 'YYYY-MM-DD HH:mm:ss'}}"></Label>
+					<Label text="Intensity : {{contraction.intensity}}"></Label>
+				</FlexboxLayout>
+			</StackLayout>
+		</ScrollView>
+	</TabView>
+	<StackLayout class="timer-buttons pad">
+		<StackLayout visibility="{{ intensity ? 'visible' : 'collapsed' }}">
+			<Label class="center h3" text="Intensity"></Label>
+		</StackLayout>
+		<FlexboxLayout class="intensity-buttons" visibility="{{ intensity ? 'visible' : 'collapsed' }}">
+			<Button text="1" (tap)="setIntensity(1)"></Button>
+			<Button text="2" (tap)="setIntensity(2)"></Button>
+			<Button text="3" (tap)="setIntensity(3)"></Button>
+			<Button text="4" (tap)="setIntensity(4)"></Button>
+			<Button text="5" (tap)="setIntensity(5)"></Button>
+			<Button text="6" (tap)="setIntensity(6)"></Button>
+			<Button text="7" (tap)="setIntensity(7)"></Button>
+			<Button text="8" (tap)="setIntensity(8)"></Button>
+			<Button text="9" (tap)="setIntensity(9)"></Button>
+			<Button text="10" (tap)="setIntensity(10)"></Button>
+		</FlexboxLayout>
+		<FlexboxLayout class="bottom-items">
+			<StackLayout class="con-time">
+				<Label class="center" text="Current Contraction: {{timerStore.contractionTime}}"></Label>
+			</StackLayout>
+			<FlexboxLayout class="actions">
+				<Button (tap)="startContraction()" text="Start Contraction" isEnabled="{{!contracting && !intensity ? true : false }}"></Button>
+				<Button (tap)="endContractionTimer()" text="End Contraction" isEnabled="{{contracting && !intensity ? true : false }}"></Button>
+				<Button (tap)="endContraction()" text="Cancel" isEnabled="{{contracting || intensity ? true : false }}"></Button>
+			</FlexboxLayout>
+		</FlexboxLayout>
+	</StackLayout>
+</FlexboxLayout>

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/nfrancis/dev/projects/norris/ContractionTimer/platforms/android/build/intermediates/res/merged/F0/debug/drawable-hdpi/icon.png",
+        "source": "/Users/nfrancis/dev/projects/norris/ContractionTimer/platforms/android/src/main/res/drawable-hdpi/icon.png"
+    },
+    {
+        "merged": "/Users/nfrancis/dev/projects/norris/ContractionTimer/platforms/android/build/intermediates/res/merged/F0/debug/drawable-hdpi/logo.png",
+        "source": "/Users/nfrancis/dev/projects/norris/ContractionTimer/platforms/android/src/main/res/drawable-hdpi/logo.png"
+    },
+    {
+        "merged": "/Users/nfrancis/dev/projects/norris/ContractionTimer/platforms/android/build/intermediates/res/merged/F0/debug/drawable-hdpi/background.png",
+        "source": "/Users/nfrancis/dev/projects/norris/ContractionTimer/platforms/android/src/main/res/drawable-hdpi/background.png"
+    }
+]

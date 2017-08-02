@@ -1,0 +1,126 @@
+.timer-cpt {
+	display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+
+	.timer-tabs {
+		display: flex;
+		flex-grow:1;
+		height:70%;
+
+		.hud {
+			label {
+				padding: 20px 0;
+			}
+		}
+
+		.history {
+			.history-block {
+				display: flex;
+    			flex-direction: row;
+    			flex-wrap: wrap;
+				padding: 20px 0;
+				border-bottom-width: 1;
+				border-bottom-color: #c9c9c9;
+				label {
+					width: 40%;
+					flex-grow: 1;
+					padding: 15px 20px;
+
+					&.history-times {
+						width: 60%;
+					}
+				}
+
+				&.1 {
+					background-color: rgba(31, 249, 67, 0.16);
+				}
+
+				&.2{
+					background-color: rgba(31, 249, 67, 0.26);
+				}
+
+				&.3{
+					background-color: rgba(31, 249, 67, 0.36);
+				}
+
+				&.4{
+					background-color: rgba(31, 249, 67, 0.46);
+				}
+
+				&.5{
+					background-color: rgba(247, 147, 17, 0.19);
+				}
+
+				&.6{
+					background-color: rgba(247, 147, 17, 0.29);
+				}
+
+				&.7{
+					background-color: rgba(247, 147, 17, 0.39);
+				}
+
+				&.8{
+					background-color: rgba(247, 17, 17, 0.19);
+				}
+
+				&.9{
+					background-color: rgba(247, 17, 17, 0.29);
+				}
+
+				&.10{
+					background-color: rgba(247, 17, 17, 0.39);
+				}
+
+			}
+		}
+
+	}
+
+	.timer-buttons {
+		display: flex;
+		flex-grow: 1;
+		height: 30%;
+
+		.h3 {
+			font-size: 18px;
+			padding: 20px;
+		}
+
+		.intensity-buttons {
+			background-color: #fff;
+			display: flex;
+			justify-content: space-between;
+			flex-direction: row;
+			flex-wrap: wrap;
+			height: 48.5%;
+			button {
+				display: flex;
+				flex-grow: 1;
+				width: 30%;
+				height: 50px;
+			}
+			margin-bottom: 15%;
+		}
+
+		.bottom-items {
+			flex-direction: column;
+
+			.con-time {
+				width: 100%;
+				padding: 10px;
+				display: flex;
+			}
+
+			.actions {
+				flex-wrap: wrap;
+				button {
+					width: 50%;
+					flex-grow: 1;
+				}
+			}
+		}
+
+	}
+}
